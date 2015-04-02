@@ -1,0 +1,2 @@
+module AscendHelper
+end
