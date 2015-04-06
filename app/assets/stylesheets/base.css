@@ -117,8 +117,7 @@ overflow: hidden;
 
 */
 .today{
-	width: 940px;
-	height: 690px;
+	
 	margin: 0px auto;
 	overflow: hidden;
 }
@@ -149,7 +148,8 @@ overflow: hidden;
 	}
 	.services li{
 		float: left;
-		width: 235px;
+		
+		height: 316px;
 
 	}	
 			.services .icon{
@@ -183,9 +183,9 @@ overflow: hidden;
 			
 			
  #seeallfeatures{
-		margin: 0 auto ;
-		width: 150px;
-		padding: 11px 45px 11px 45px;
+		width: 200px;	
+		margin:  0 auto 30px auto;
+		padding: 11px 15px 11px 15px;
 		text-align: center;
 		font-size: 20px;
 		color: #fff;
@@ -272,8 +272,8 @@ overflow: hidden;
 		height:271px;
 	}
 	.comentarios p{
-		padding: 30px 50px 0 50px;
-		font-size: 20px;
+		padding: 35px 50px 0 50px;
+		font-size: 17px;
 		text-align: center;
 	}
 	#circulos{
@@ -319,13 +319,15 @@ background-color: #222222;
 height: 451px;
 }
 footer h3{
-	padding-top: 22px;
+	font-size: 15px;
 	margin: 0 0;
 	color:#ffffff;
+	padding-bottom: 10px;
 }
 footer h4{
-	font-size: 20px;
+	font-size: 14px;
 	padding-bottom: 22px;
+	color: #ffffff;
 }
 footer h5, h4{
 	color: #ffffff;
@@ -360,7 +362,7 @@ footer h5, h4{
 
 
 #stayintouch{
-	padding: 54px 0 25px 0;
+	padding: 30px 0 25px 0;
 }
 .redes {
 
