@@ -37,11 +37,79 @@ overflow: hidden;
 			text-decoration: underline;;
 		}
 
+/*
+::::::::::::::::::::::::::::::imagen principal;
 
+*/
 .main-image{
-	background: #673d9e;
-	height: 200px;
+	background:#fcfcfc;
+	height: 636px;
 	margin: 0 auto;
+	overflow: hidden;
+}
+#fondorosado{
+	height: 540px;
+	background:#673d9e;
+}
+.divimagen{
+	width: 940px;
+	height: 571px;
+	margin: 0 auto;
+	
+}
+.divtext{
+	width: 515px;
+	float:left;
+	padding-top: 65px;
+	text-align: center;
+}
+	.divtext h1{
+		font-size:30pt;
+		margin: 0 0;
+		padding-bottom: 31px;
+		color: #ffffff;
+		font-weight: normal;
+	}
+	.divtext h2{
+		font-size: 20px;
+		margin: 0 0;
+		color: #ffffff;
+		font-weight: normal;
+	}
+	.divtext h5{
+		margin: 0 0;
+		padding-top: 12px;
+		padding-bottom: 40px;
+		color: #ffffff;
+		font-weight: normal;
+	}
+	.divtext #play{
+		width: 515px;
+		height: 150px;
+		background-image: url(../assets/Play-Button.png);
+		background-repeat: no-repeat;
+		background-position: center center;
+	}
+	.divtext input{
+		width: 351px;
+		height: 30px;
+		padding-right: 15px;
+	}
+	.divtext a{
+		width: 31px;
+		height:36px;
+		padding: 10px 45px 10px 45px;
+		background-color: #673d9e;
+		color: white;
+		text-decoration: none;
+		border: 1px solid #ffffff ;
+	}
+	.divtext a:hover{
+		text-decoration: underline;
+	}
+.divimagen img{
+	padding-top: 65px;
+	float: right;
 }
 
 /*
@@ -50,16 +118,20 @@ overflow: hidden;
 */
 .today{
 	width: 940px;
-	height: 616px;
+	height: 690px;
 	margin: 0px auto;
 	overflow: hidden;
 }
+
 	.today h2{
+		display: block;
 		font-size: 60px;
 		text-align: center;
 		margin: 0 0;
+		padding-top: 75px;
 	}
 	.today h5{
+		display: block;
 		padding: 29px 0 75px;
 		font-size: 30px;
 		margin: 0 0;
@@ -71,11 +143,14 @@ overflow: hidden;
 	}
 	.services ul{
 		overflow: hidden;
+		margin: 0 auto;
+		padding: 0 0;
+
 	}
 	.services li{
 		float: left;
-		overflow: hidden;
-		width: 220px;
+		width: 235px;
+
 	}	
 			.services .icon{
 				background-repeat: no-repeat;
@@ -98,10 +173,15 @@ overflow: hidden;
 				padding-top: 42px;
 				margin: 0 auto;
 			}
-			.services h5{
+			
+			.services  p{
+				margin: 25px auto 80px;
 				text-align: center;
-				width: 214px;
+				width: 150px;
 			}
+			
+			
+			
  #seeallfeatures{
 		margin: 0 auto ;
 		width: 150px;
@@ -117,7 +197,7 @@ overflow: hidden;
 :::::::::::::::::::::::::::::::dashboard
 */
 .dashboard{
-	background-color: #fbfbfb;
+	background-color: #cdcdcd;
 	height:940px;
 	overflow: hidden;
 	
@@ -128,6 +208,7 @@ overflow: hidden;
 
 	}
 	.dashboard h2{
+		display: block;
 		padding-top: 78px;
 		font-size: 60px;
 		text-align: center;
@@ -137,6 +218,7 @@ overflow: hidden;
 			color: #673d9e;
 		}
 	.dashboard h5{
+		display: block;
 		padding: 29px 0 75px;
 		font-size: 30px;
 		margin: 0 0;
@@ -158,7 +240,7 @@ overflow: hidden;
 	width: 940px;
 }
 	.satisfaction h2{
-		padding-top: 78px;
+		padding-top: 50px;
 		font-size: 60px;
 		text-align: center;
 		margin: 0 0;
@@ -194,20 +276,127 @@ overflow: hidden;
 		font-size: 20px;
 		text-align: center;
 	}
+	#circulos{
+		width: 263px;
+	}
 
+		#circulos .div-borde{
+			border: 1px solid #ededed;
+			border-radius: 100%	;
+			width: 220px;
+			height: 220px;
+			margin: 28px auto;
+
+		}
+		 .div-relleno{
+			background-color: #673d9e;
+			width: 207px;
+			height: 207px;
+			border-radius: 100%;
+			margin:6.5px auto;
+		}
+	#circulos h3{
+		font-size: 20pt;
+		text-align: center;
+		padding-top:28px;
+		margin: 0 auto;
+	}
+	#circulos h5
+	{
+		font-size: 16pt;
+		text-align: center;
+		padding-top: 10px;
+		margin: 0 auto;
+		font-style: normal;
+	}
 
 
 /*
 ::::::::::::::::::::::::::::::footer
 */
 footer{
-	width: 940px;
-	margin: 0 auto;
+background-color: #222222;
+height: 451px;
 }
+footer h3{
+	padding-top: 22px;
+	margin: 0 0;
+	color:#ffffff;
+}
+footer h4{
+	font-size: 20px;
+	padding-bottom: 22px;
+}
+footer h5, h4{
+	color: #ffffff;
+	margin:  0 0 ;
+}
+	footer div{
+		width: 960px;
+		margin: 0 auto;
+		height: 455px;
+	}
+	footer ul{
+		overflow: hidden;
+		padding-left: 0;
+		margin: 0 0;
+		height: 350px;
+	}
+	.lista{
+		height: 400px;
+	}
+	footer .lista{
+		padding: 23px 0 0 0;
+	}
+	.lista li{
+	
+		padding-bottom: 15px;
+		width: 238px;
+		float: left;
+	}
+	.lista h5:hover{
+		text-decoration: underline;
+	}
+
+
+#stayintouch{
+	padding: 54px 0 25px 0;
+}
+.redes {
+
+}
+.redes .liredes{
+	margin-bottom: 10px;
+	height: 26px;
+	padding: 0 0 0 0;
+}
+
+.liredes  h5{
+	padding:7px 37px;
+}
+
+
+
+.liredes img{
+	float: left;
+}
+
+
 /*
 ::::::::::::::::::::::::::::::basefooter
 */
+
 .base-footer{
-	width: 940px;
+	background-color: #673d9e;
 	margin: 0 auto;
-}z
+	height: 51px;
+	overflow: hidden;
+}
+.divbase{
+	padding:0 0;
+	height: 51px;
+
+}
+.divbase h5{
+	padding-top: 22px;
+}
