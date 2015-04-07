@@ -19,7 +19,8 @@
 	            <span class="icon-bar"></span>
 	            <span class="icon-bar"></span>
 	          </button>
-				<img class="navbar-brand" src="assets/logo.png">
+	          <%= image_tag 'logo.png', class: 'navbar-brand'%>
+				<!--<img class="navbar-brand" src="assets/logo.png">-->
 			</div>	
 			<div id="navbar" class="navbar-collapse collapse " >				
 					<ul class="nav navbar-right">
@@ -49,7 +50,7 @@
 					<input type="text"></input>
 					<a href="#">Sign Up</a>
 					</div>
-					<img src="../assets/iPad.png" class="img-responsive">
+					<%= image_tag 'iPad.png', class:'img-responsive'%>
 				</div>
 			</div>
 		</div>	
@@ -265,11 +266,11 @@
 					<h3>contact@ascend.com</h3>
 					<h4 id="stayintouch">Stay In Touch</h4>
 						<ul class="redes">
-							<li class="liredes"><img src="assets/facebook.png"><h5>Facebook</h5></li>
-							<li class="liredes"><img src="assets/twitter.png"><h5>Twitter</h5></li>
-							<li class="liredes"><img src="assets/google.png"><h5>Google+</h5></li>
-							<li class="liredes"><img src="assets/pinterest.png"><h5>Pinterest</h5></li>
-							<li class="liredes"><img src="assets/linkedin.png"><h5>LinkedIn</h5></li>
+							<li class="liredes"><%=image_tag 'facebook.png' %><h5>Facebook</h5></li>
+							<li class="liredes"><%=image_tag 'twitter.png'%><h5>Twitter</h5></li>
+							<li class="liredes"><%=image_tag 'google.png'%><h5>Google+</h5></li>
+							<li class="liredes"><%=image_tag 'pinterest.png'%><h5>Pinterest</h5></li>
+							<li class="liredes"><%=image_tag 'linkedin.png'%><h5>LinkedIn</h5></li>
 						</ul>	
 				</li>
 			</ul>	

@@ -142,15 +142,15 @@ body{
 				height: 67px;
 			}
 			.services .corazon{
-				background-image: url(../assets/corazon.png);
+				background-image: url(/assets/corazon.png);
 			}.services .mobile{
-				background-image: url(../assets/mobile.png);
+				background-image: url(/assets/mobile.png);
 			}
 			.services .candado{
-				background-image: url(../assets/candado.png);
+				background-image: url(/assets/candado.png);
 			}
 			.services .pago{
-				background-image: url(../assets/pago.png);
+				background-image: url(/assets/pago.png);
 			}
 			.services h3{
 				text-align: center;
