@@ -3,62 +3,44 @@ body{
 	font: 13px/1.1em Arial, "Helvetica Neue", Helvetica, sans-serif;
 }		
 
-header{
-padding: 51 0;
-overflow: hidden;
-}
-	header	div{
-		margin: 50px auto;
-		width: 940px;
-	}
-	header img{
-		width: 150px;
-		height: 26px;
-	}
-	header .main-menu{
-		float: right;
-	}
-	.main-menu li{
+
+	
+	
+	
+	.navbar li{
+		padding-top: 10px;
+		padding-bottom: 5px;
 		float: left;
 		width: 88px;
+		margin-right: 20px;
 	}
-		.main-menu a{
+	.navbar ul{
+		float: left;
+	}
+		.navbar a{
 			color: #000;
 			text-decoration: none;
 		}
-		.main-menu #login{
+		.navbar #login{
 			background: #673d9e;
 			padding: 8px 25px 8px 25px ;
 			text-align: center;
 			color: #ffffff;
 			border-radius: 50px;
 		}
-		.main-menu a:hover{
-			text-decoration: underline;;
-		}
+		
 
 /*
 ::::::::::::::::::::::::::::::imagen principal;
 
 */
-.main-image{
-	background:#fcfcfc;
-	height: 636px;
-	margin: 0 auto;
-	overflow: hidden;
-}
+
 #fondorosado{
-	height: 540px;
 	background:#673d9e;
 }
-.divimagen{
-	width: 940px;
-	height: 571px;
-	margin: 0 auto;
-	
-}
+
 .divtext{
-	width: 515px;
+
 	float:left;
 	padding-top: 65px;
 	text-align: center;
@@ -84,7 +66,7 @@ overflow: hidden;
 		font-weight: normal;
 	}
 	.divtext #play{
-		width: 515px;
+
 		height: 150px;
 		background-image: url(../assets/Play-Button.png);
 		background-repeat: no-repeat;
@@ -93,7 +75,8 @@ overflow: hidden;
 	.divtext input{
 		width: 351px;
 		height: 30px;
-		padding-right: 15px;
+		padding-right: 25px;
+		margin-bottom: 15px;
 	}
 	.divtext a{
 		width: 31px;
@@ -109,7 +92,9 @@ overflow: hidden;
 	}
 .divimagen img{
 	padding-top: 65px;
-	float: right;
+
+
+
 }
 
 /*
@@ -144,11 +129,10 @@ overflow: hidden;
 		overflow: hidden;
 		margin: 0 auto;
 		padding: 0 0;
-
 	}
 	.services li{
 		float: left;
-		
+
 		height: 316px;
 
 	}	
@@ -198,18 +182,14 @@ overflow: hidden;
 */
 .dashboard{
 	background-color: #cdcdcd;
-	height:940px;
+	
 	overflow: hidden;
 	
 }
-	.dashboard .contenedor{
-		width: 940px;
-		margin: 0 auto;
-
-	}
+	 
 	.dashboard h2{
 		display: block;
-		padding-top: 78px;
+		padding-top: 68px;
 		font-size: 60px;
 		text-align: center;
 		margin: 0 0;
@@ -219,25 +199,20 @@ overflow: hidden;
 		}
 	.dashboard h5{
 		display: block;
-		padding: 29px 0 75px;
+		padding: 25px 0 30px;
 		font-size: 30px;
 		margin: 0 0;
 		text-align: center;
 	}
-	.dashboard .dashboard-imagen{
-		background-image: url(../assets/Customization-options.png);
-		background-repeat: no-repeat;
-		height:528px;
-		width: 913px;
-		margin: 0 auto;
+	.dashboard .img-responsive{
 		
+		margin: 0 auto 30px auto;
 	}
 /*
 ::::::::::::::::::::::::::::::satisfaction
 */
 .satisfaction{
-	margin: 0 auto;
-	width: 940px;
+	
 }
 	.satisfaction h2{
 		padding-top: 50px;
@@ -257,27 +232,27 @@ overflow: hidden;
 /*
 ::::::::::::::::::::::::::::::comentarios
 */	
-	.comentarios ul{
-		overflow: hidden;
-	}
-	.comentarios li{
+	
+	.row li{
 		float: left;
-		width: 300px;
+		
 	}
-	.comentarios .img-comment{
+	.row .img-comment{
 		background-image: url(../assets/comment.png);
 		background-position: center center;
 		background-repeat: no-repeat;;
+		margin: 0 auto;
 		width:263px;
 		height:271px;
 	}
-	.comentarios p{
+	.row p{
 		padding: 35px 50px 0 50px;
 		font-size: 17px;
 		text-align: center;
 	}
 	#circulos{
 		width: 263px;
+		margin: auto;
 	}
 
 		#circulos .div-borde{
@@ -316,61 +291,72 @@ overflow: hidden;
 */
 footer{
 background-color: #222222;
-height: 451px;
+margin: auto;
+overflow: hidden;
 }
 footer h3{
 	font-size: 15px;
 	margin: 0 0;
 	color:#ffffff;
 	padding-bottom: 10px;
+	padding-left: 85px;
 }
 footer h4{
-	font-size: 14px;
+	
+	font-size: 25px;
 	padding-bottom: 22px;
 	color: #ffffff;
+padding-left: 85px
 }
 footer h5, h4{
 	color: #ffffff;
 	margin:  0 0 ;
+	
 }
-	footer div{
-		width: 960px;
-		margin: 0 auto;
-		height: 455px;
-	}
 	footer ul{
 		overflow: hidden;
 		padding-left: 0;
-		margin: 0 0;
-		height: 350px;
 	}
-	.lista{
-		height: 400px;
-	}
-	footer .lista{
-		padding: 23px 0 0 0;
+
+	.overview li{
+		float: center;
+		padding-left: 85px;
+
 	}
 	.lista li{
-	
+		margin: auto;
 		padding-bottom: 15px;
-		width: 238px;
-		float: left;
+	}
+	.lista {
+		margin: auto;
+		padding-bottom: 50px;
 	}
 	.lista h5:hover{
 		text-decoration: underline;
 	}
 
+.col-md-3{
+	height: 300px;
+	
+}
+#larga{
+	height: 400px;
+}
+.col-md-3 .li{
+	float: center;
+}
 
 #stayintouch{
-	padding: 30px 0 25px 0;
+	padding: 30px 0 25px 85px;
 }
 .redes {
-
-}
+ padding-left: 85px;
+ padding-bottom: 30}
 .redes .liredes{
 	margin-bottom: 10px;
 	height: 26px;
 	padding: 0 0 0 0;
+	float: center;
 }
 
 .liredes  h5{
@@ -391,14 +377,16 @@ footer h5, h4{
 .base-footer{
 	background-color: #673d9e;
 	margin: 0 auto;
-	height: 51px;
+
 	overflow: hidden;
 }
 .divbase{
-	padding:0 0;
-	height: 51px;
+	padding:0 0 0 70px;
+
 
 }
 .divbase h5{
 	padding-top: 22px;
+	padding-bottom:  22px;
+
 }
