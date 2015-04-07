@@ -163,8 +163,23 @@ body{
 				text-align: center;
 				width: 150px;
 			}
-			
-			
+			.corazon2{
+				display: block;
+				margin: 0 auto 0 auto;
+				
+			}
+			.mobile2{
+				display: block;
+				margin: 0 auto 0 auto;
+			}
+			.candado2{
+				display: block;
+				margin: 0 auto 0 auto;
+			}
+			.pago2{
+				display: block;
+				margin: 0 auto 0 auto;
+			}
 			
  #seeallfeatures{
 		width: 200px;	
@@ -237,15 +252,16 @@ body{
 		float: left;
 		
 	}
+
 	.row .img-comment{
-		background-image: url(../assets/comment.png);
-		background-position: center center;
-		background-repeat: no-repeat;;
+		position: relative;
 		margin: 0 auto;
 		width:263px;
 		height:271px;
 	}
 	.row p{
+		position: absolute;
+		top: 0px;
 		padding: 35px 50px 0 50px;
 		font-size: 17px;
 		text-align: center;
