@@ -68,12 +68,11 @@ body{
 		color: #ffffff;
 		font-weight: normal;
 	}
-	.divtext #play{
+	.divtext .play{
 
-		height: 150px;
-		background-image: url(../assets/Play-Button.png);
-		background-repeat: no-repeat;
-		background-position: center center;
+		display: block;
+		margin: 0 auto;
+		padding: 30px 0 30px 0;
 	}
 	.divtext input{
 		width: 351px;
