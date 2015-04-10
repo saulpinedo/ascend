@@ -1,0 +1,43 @@
+/*=================================*/
+/* Lean Slider Demo
+/* October 2012
+/* By: Gilbert Pellegrom
+/* http://dev7studios.com
+/*=================================*/
+
+
+table {
+  border-collapse: separate;
+  border-spacing: 0; }
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: ""; }
+
+blockquote, q {
+  quotes: "" ""; }
+
+
+
+
+/* make buttons play nice in IE:   
+    www.viget.com/inspire/styling-the-button-element-in-internet-explorer/ */
+button {
+  width: auto;
+  overflow: visible; }
+
+/* Sharper Thumbnails */
+
+
+select:focus {
+  color: #000;
+  background: #fff;
+  border: 1px solid #666; }
+
+
+
+

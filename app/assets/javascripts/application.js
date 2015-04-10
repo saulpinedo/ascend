@@ -17,9 +17,15 @@
 //= require bootstrap-sprockets
 
 
+
+
 $(document).ready(function(){
 	
 	$('#slideshow').craftyslide();
-
+	var slider = $('#slider').leanSlider({
+            directionNav: '#slider-direction-nav',
+            controlNav: '#slider-control-nav'
+        });
+    
 });
  
