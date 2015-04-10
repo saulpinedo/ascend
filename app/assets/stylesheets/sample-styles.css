@@ -5,7 +5,7 @@
 
 .slider-wrapper { 
     position: relative; 
-    background: #fff url('/assets/loading.gif') no-repeat 50% 50%;
+    background: #fff image-url('/assets/loading.gif') no-repeat 50% 50%;
     min-width: 100%;
     min-height: 100%;
     -moz-box-shadow: 0 0 3px rgba(0,0,0,0.4);
