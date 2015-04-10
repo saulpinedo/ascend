@@ -5,7 +5,7 @@
 
 .slider-wrapper { 
     position: relative; 
-    background: #fff url("loading.gif") no-repeat 50% 50%;
+    background: #fff url('/assets/loading.gif') no-repeat 50% 50%;
     min-width: 100%;
     min-height: 100%;
     -moz-box-shadow: 0 0 3px rgba(0,0,0,0.4);
@@ -48,7 +48,7 @@
     display: block;
     width: 26px;
     height: 37px;
-    background: url("arrows.png") no-repeat 0 0;
+    background: url('/assets/arrows.png') no-repeat 0 0;
     text-indent: -9999px;
 }
 #slider-direction-nav .lean-slider-next {
@@ -74,7 +74,7 @@
     display: inline-block;
     width: 14px;
     height: 14px;
-    background: url("bullets.png") no-repeat 0 0;
+    background: url('/assets/bullets.png') no-repeat 0 0;
     text-indent: -9999px;
     margin: 0 3px;
     -webkit-transition: none;
