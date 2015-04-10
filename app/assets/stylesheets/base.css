@@ -146,17 +146,6 @@ body{
 				background-position: center center;
 				height: 67px;
 			}
-			.services .corazon{
-				background-image: url(/assets/corazon.png);
-			}.services .mobile{
-				background-image: url(/assets/mobile.png);
-			}
-			.services .candado{
-				background-image: url(/assets/candado.png);
-			}
-			.services .pago{
-				background-image: url(/assets/pago.png);
-			}
 			.services h3{
 				text-align: center;
 				padding-top: 42px;
@@ -168,7 +157,23 @@ body{
 				text-align: center;
 				width: 150px;
 			}
-			
+			.corazon2{
+				display: block;
+				margin: 0 auto 0 auto;
+				
+			}
+			.mobile2{
+				display: block;
+				margin: 0 auto 0 auto;
+			}
+			.candado2{
+				display: block;
+				margin: 0 auto 0 auto;
+			}
+			.pago2{
+				display: block;
+				margin: 0 auto 0 auto;
+			}
 			
  #seeallfeatures{
 		width: 200px;	
