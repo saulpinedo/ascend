@@ -48,7 +48,7 @@
     display: block;
     width: 26px;
     height: 37px;
-    background-image: url('arrows.png') ;
+    background-image: url(arrows.png) ;
     text-indent: -9999px;
 }
 #slider-direction-nav .lean-slider-next {
