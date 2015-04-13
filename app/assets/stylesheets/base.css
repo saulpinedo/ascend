@@ -127,14 +127,15 @@ body{
 	.today span{
 		color: #673d9e;
 	}
-	.services ul{
+	.lista-servicios{
 		overflow: hidden;
 		text-align: center;
 		padding:  0 0 ;
 	}
-	.services li{
+	.lista-servicios .col-md-3{
 		display: inline-block;
 		height: 316px;
+
 
 	}	
 			.services .icon{
@@ -237,11 +238,13 @@ body{
 /*
 ::::::::::::::::::::::::::::::comentarios
 */	
-	
-	.row li{
-		float: left;
-		
+	.lista-comentarios{
+		text-align: center;
 	}
+	 .lista-comentarios .col-md-4{
+	 	display: inline-block;
+	 }
+ 
 
 	.row .img-comment{
 		position: relative;
