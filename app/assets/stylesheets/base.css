@@ -3,9 +3,6 @@ body{
 	font: 13px/1.1em Arial, "Helvetica Neue", Helvetica, sans-serif;
 }		
 
-
-	
-	
 	
 	.navbar li{
 		padding-top: 10px;
@@ -133,13 +130,11 @@ body{
 	.services ul{
 		overflow: hidden;
 		margin: 0 auto;
-		padding: 0 0;
+		text-align: center;
 	}
 	.services li{
-		float: left;
-
+		display: inline-block;
 		height: 316px;
-
 	}	
 			.services .icon{
 				background-repeat: no-repeat;
