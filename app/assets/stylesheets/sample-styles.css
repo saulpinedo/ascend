@@ -74,7 +74,7 @@
     display: inline-block;
     width: 14px;
     height: 14px;
-    background-image: url(bullets.png) ;
+    background-image: url(bullets.png);
     text-indent: -9999px;
     margin: 0 3px;
     -webkit-transition: none;
