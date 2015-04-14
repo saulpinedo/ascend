@@ -4,16 +4,15 @@ body{
 }		
 
 	
-	.navbar li{
+	.navbar .item-menu{
 		padding-top: 10px;
 		padding-bottom: 5px;
 		float: left;
 		width: 88px;
 		margin-right: 20px;
+		position: relative;
 	}
-	.navbar ul{
-		float: left;
-	}
+	
 		.navbar a{
 			color: #000;
 			text-decoration: none;
@@ -25,8 +24,22 @@ body{
 			color: #ffffff;
 			border-radius: 50px;
 		}
-		
+/*::::::::::::::::::::::::::::::::submenu*/
 
+.item-menu.ul-submenu{
+	float: left;
+	position: relative;
+	background-color: #fff
+}	
+		
+		
+		 .li-submenu{
+		 	position: relative;
+			
+			padding: 10px 10px 10px 10px;
+		 }
+		
+		
 /*
 ::::::::::::::::::::::::::::::imagen principal;
 
@@ -329,16 +342,17 @@ footer h5, h4{
 	}
 
 	.overview li{
-		float: center;
 		padding-left: 85px;
-
 	}
 	.lista li{
-		margin: auto;
 		padding-bottom: 15px;
 	}
+	.lista .col-md-3{
+		display: inline-block;
+		vertical-align: top;		
+	}
 	.lista {
-		margin: auto;
+		
 		padding-bottom: 50px;
 	}
 	.lista h5:hover{
